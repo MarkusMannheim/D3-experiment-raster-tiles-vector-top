@@ -1,0 +1,34 @@
+:root {
+  font-size: 1em;
+  font-family: "Roboto", sans-serif;
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  padding: 0;
+}
+#container {
+  width: 100%;
+  max-width: 600px;
+}
+#map {
+  margin-top: 10px;
+}
+#title {
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: rgb(0, 75, 122);
+}
+#description {
+  font-size: 1rem;
+  color: rgb(102, 102, 102);
+}
+.electorate {
+  fill: rgb(0, 94, 153);
+  stroke: white;
+  stroke-width: 1px;
+  opacity: 0.5;
+}
+.electorate:hover {
+  fill: rgb(150, 30, 27);
+}
